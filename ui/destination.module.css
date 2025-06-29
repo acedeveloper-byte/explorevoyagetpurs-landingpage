@@ -1,0 +1,224 @@
+.container{
+    max-width: 90%;
+    width: 100%;
+    margin: 0 auto;
+    padding: 8rem 2rem;
+    /* border: 1px solid black; */
+    
+}
+.headingArea{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    /* justify-content: center; */
+    align-items: center;
+    /* border: 1px solid black; */
+}
+.headingArea h3{
+    font-size: 3.2rem;
+    font-weight: 400;
+    color: rgb(92, 60, 1);
+    
+}
+.headingArea p{
+    color: rgb(94, 94, 94);
+}
+
+/* .gridContainer{
+
+} */
+ .gridWrapper {
+    max-width: 80%;
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    padding: 2.6rem 0;
+    /* border: 1px solid black; */
+}
+
+@media (min-width: 1024px) {
+  .gridWrapper {
+    grid-template-columns: 2fr 1fr;
+  }
+}
+
+.leftGrid {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 768px) {
+  .leftGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.destinationCard {
+  border-radius: 1.5rem;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.destinationCard:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.imageContainer {
+  position: relative;
+  border-radius: 1.5rem;
+  height: 16rem;
+}
+
+@media (min-width: 768px) {
+  .imageContainer {
+    height: 20rem;
+  }
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  border-radius: inherit;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.overlayLight {
+  position: absolute;
+  inset: 0;
+  /* background-color: rgba(0, 0, 0, 0.1); */
+}
+
+.textWrapper {
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
+  z-index: 2;
+  color: white;
+}
+
+.badge {
+  background-color: #1ca8cb;
+  padding: 0.25rem 0.75rem;
+  font-size: 0.75rem;
+  border-radius: 9999px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.textGroup {
+  margin-top: 0.5rem;
+}
+
+.label {
+  font-size: 0.9rem;
+}
+
+.title {
+  font-size: 1.75rem;
+  font-weight: bold;
+}
+
+@media (min-width: 768px) {
+  .title {
+    font-size: 2rem;
+  }
+}
+
+/* Right side promo section */
+.promoContainer {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.promoCard {
+  position: relative;
+  height: 16rem;
+  border-radius: 1.5rem;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+@media (min-width: 768px) {
+  .promoCard {
+    height: 100%;
+  }
+}
+.promoCard .image{
+    height: 100%;
+}
+
+.promoContent {
+  position: absolute;
+  left: -10px;
+  bottom: -10px;
+  z-index: 2;
+  padding: 2rem;
+  color: white;
+}
+
+
+.promoTitle {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 768px) {
+  .promoTitle {
+    font-size: 2.5rem;
+  }
+}
+
+.promoButton {
+  /* background-color: #1ca8cb; */
+  padding: 0.5rem 1.5rem;
+  border-radius: 9999px;
+  font-weight: 600;
+  color: white;
+  border: none;
+  cursor: pointer;
+  width: fit-content;
+  transition: background 0.3s ease;
+}
+
+.promoButton:hover {
+  background-color: #1980a1;
+}
+
+@media (max-width: 1024) {
+  .headingArea h3 {
+    text-align: center;
+ }
+}
+@media (max-width: 768px) {
+  .headingArea h3 {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+
+  .headingArea p {
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .headingArea h3 {
+    font-size: 2rem;
+ }
+}

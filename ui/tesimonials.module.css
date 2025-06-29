@@ -1,0 +1,110 @@
+.container{
+    max-width: 90%;
+    width: 100%;
+    margin: 0 auto;
+    padding: 8rem 2rem;
+    /* border: 1px solid black; */
+    
+}
+.headingArea{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    /* justify-content: center; */
+    align-items: center;
+    /* border: 1px solid black; */
+}
+.headingArea h3{
+    font-size: 3.2rem;
+    font-weight: 400;
+    color: rgb(92, 60, 1);
+    text-align: center;
+    /* white-space: nowrap; */
+    
+}
+.headingArea p{
+    color: rgb(94, 94, 94);
+}
+.row{
+    max-width: 80%;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 1.8rem;
+    /* border: 1px solid black; */
+}
+.row .cardContainer{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    gap: 1.2rem;
+}
+.card{
+    flex-basis: 32%;
+    /* height: 350px; */
+    padding: 1rem;
+    background: rgb(247, 247, 247);
+    border: 1px solid rgb(226, 226, 226);
+    border-radius: 10px;
+}
+.card .top{
+    width: 100%;
+    display: flex;
+    /* align-items: center; */
+    gap: 0.7rem;
+}
+.card .top .image{
+    width: 65px;
+    height: 55px;
+    border-radius: 50%;
+}
+.card .top .image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.card .top .name{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.3rem;
+    margin-bottom: 1.2rem;
+}
+.card .top .name h4{
+    font-size: 1.2rem;
+}
+.card .top .name p{
+    color: rgb(94, 94, 94);
+}
+.card .comment{
+    font-size: 1.2rem;
+}
+
+@media (max-width: 992px) {
+    .card {
+        flex-basis: 48%;
+    }
+}
+
+@media (max-width: 768px) {
+    .card {
+        flex-basis: 100%;
+    }
+
+    .card .top {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .card .top .name {
+        align-items: center;
+        margin-bottom: 0.8rem;
+    }
+
+    .card .comment {
+        font-size: 1rem;
+    }
+}
