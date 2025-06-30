@@ -8,11 +8,11 @@ const WhyChooseUs = () => {
   return (
     <div className={style.container}>
       <div className={style.headingArea}>
-        <h3>Why Choose <strong><i>Voyage Tours And Travels?</i></strong></h3>
+        <h3>Why Choose <strong><i>Explore Tours And Travels?</i></strong></h3>
       </div>
       <div className={style.row}>
         <div className={style.left}>
-            <p>At Voyage Tours and Travels, we take pride in delivering exceptional travel experiences that go far beyond mere bookings. Here’s why travelers choose us for their adventures!</p>
+            <p>At Explore Tours and Travels, we take pride in delivering exceptional travel experiences that go far beyond mere bookings. Here’s why travelers choose us for their adventures!</p>
             <div className={style.staggerCards}>
               <div className={style.card}>
                 <p className={style.icon}><FaUser size={20} /></p>
@@ -39,13 +39,13 @@ const WhyChooseUs = () => {
         </div>
         <div className={style.right}>
           <div className={style.image}>
-            <img src="./home.jpg" alt="why us image" />
+            <img src="./yosemite.jpg" alt="yosemite forest image" />
           </div>
           <div className={style.image}>
-            <img src="./home.jpg" alt="why us image" />
+            <img src="./colorado.jpg" alt="colorado mountain image" />
           </div>
           <div className={style.image}>
-            <img src="./home.jpg" alt="why us image" />
+            <img src="./waterfalls.jpg" alt="why us image" />
           </div>
         </div>
       </div>

@@ -1,4 +1,4 @@
-// File: C:\Users\HP\Desktop\New folder (3)\explorevoyagetpurs-landingpage\app\page.js
+// File: D:\voyagetravelnew\explorevoyagetpurs-landingpage\app\page.js
 import * as entry from '../../../app/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

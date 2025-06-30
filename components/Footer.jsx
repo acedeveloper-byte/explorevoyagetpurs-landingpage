@@ -10,7 +10,7 @@ const Footer = () => {
       <div className={styles.topSection}>
         <div className={styles.logoAndDesc}>
             <h2 className={styles.logo}>
-                <span className={styles.logoMain}>VOYAGE</span>
+                <span className={styles.logoMain}>Explore</span>
                 <span className={styles.logoSub}>TOURS & TRAVELS</span>
             </h2>
           <p>
@@ -63,7 +63,7 @@ const Footer = () => {
                 HMT Main Road, Mathikere,<br />
                 Bengaluru, Karnataka, PIN Code: 560054
                 </p>
-                <p><strong>Email:</strong><br />voyagetoursandtravels123@gmail.com</p>
+                <p><strong>Email:</strong><br />exploretoursandtravels123@gmail.com</p>
             </div>
           </div>
         </div>

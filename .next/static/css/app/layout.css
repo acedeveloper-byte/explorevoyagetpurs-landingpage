@@ -27,7 +27,7 @@
 .navbar_logo__btObb span{
   font-size: 1.7rem;
 }
-/* Default nav links (desktop) */
+
 .navbar_navLinks__Oz6gY {
   list-style: none;
   display: flex;
@@ -45,7 +45,7 @@
   color: #f0a500;
 }
 
-/* Menu icon (hamburger / close) */
+
 .navbar_menuIcon__SIjNs {
   display: none;
   font-size: 1.5rem;
@@ -53,7 +53,8 @@
   z-index: 1100;
 }
 
-/* Mobile styles */
+
+
 @media (max-width: 768px) {
   .navbar_menuIcon__SIjNs {
     display: block;

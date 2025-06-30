@@ -13,17 +13,17 @@ const Services = () => {
       <div className={style.row}>
         <div className={style.serviceCard}>
           <div className={style.serviceImage}>
-            <img src="./home.jpg" alt="our service" />
+            <img src="./cruise.jpg" alt="cruise booking services" />
           </div>
           <div className={style.serviceContent}>
-            <h4>Visa Services</h4>
-            <p>Simplify your travel preparations with our hassle-free visa assistance, tailored to meet your destination requirements.</p>
+            <h4>Cruise Booking</h4>
+            <p>Set sail with ease through our seamless cruise booking service, designed to match your travel preferences and deliver unforgettable ocean adventures.</p>
             <button className={style.cta}>Explore Now <FaArrowRight /></button>
           </div>
         </div>
         <div className={style.serviceCard}>
           <div className={style.serviceImage}>
-            <img src="./home.jpg" alt="our service" />
+            <img src="./plane-landing.jpg" alt="flight booking service" />
           </div>
           <div className={style.serviceContent}>
             <h4>Air Ticket Booking</h4>
@@ -33,7 +33,7 @@ const Services = () => {
         </div>
         <div className={style.serviceCard}>
           <div className={style.serviceImage}>
-            <img src="./home.jpg" alt="our service" />
+            <img src="./statue-of-liberty.jpg" alt="statue of liberty image" />
           </div>
           <div className={style.serviceContent}>
             <h4>Tour Packages</h4>

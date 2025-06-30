@@ -12,10 +12,10 @@ const Hero = () => {
           <strong>
             <i>World</i>
           </strong>{" "}
-          With Voyage Tours And Travels
+          With Explore Tours And Travels
         </p>
         <p className={style.subpara}>
-          Welcome to Voyage Tours And Travels, a premier tour and travel agency
+          Welcome to Explore Tours And Travels, a premier tour and travel agency
           committed to transforming your travel dreams into reality.
         </p>
         <button className={style.cta}>
@@ -24,7 +24,7 @@ const Hero = () => {
       </div>
       <div className={style.right}>
         <div className={style.image}>
-          <img src="./home.jpg" alt="Hero" className={style.image} />
+          <img src="./statue.jpg" alt="statue of liberty" className={style.image} />
         </div>
       </div>
     </section>

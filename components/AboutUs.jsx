@@ -9,25 +9,25 @@ const AboutUs = () => {
   return (
     <div className={style.container}>
       <div className={style.headingArea}>
-        <h3>Voyage Tours And Travels, <br /> World's Best Travel Agency <strong><i>Since 2020.</i></strong></h3>
+        <h3>Explore Tours And Travels, <br /> World's Best Travel Agency <strong><i>Since 2020.</i></strong></h3>
       </div>
       <div className={style.row}>
         <div className={style.leftCard}>
             <div className={style.leftImage}>
-                <img src="./home.jpg" alt="about" />
+                <img src="./nyc.jpg" alt="new york image" />
             </div>
         </div>
         <div className={style.rightCard}>
           <div className={style.imageContainer}>
             <div>
-                <img src="./home.jpg" alt="about image" />
+                <img src="./california.jpg" alt="california image" />
             </div>
             <div>
-                <img src="./home.jpg" alt="about image" />
+                <img src="./mountain-sculpture.jpg" alt="sculpture image" />
             </div>
           </div>
           <div className={style.para}>
-            <p>At Voyage Tours and Travels, we make your dream journeys a reality. From seamless visa services to hassle-free air ticket booking and curated tour packages, we ensure your travel experience is stress-free and unforgettable. Whether you’re seeking adventure or relaxation, our expert team is here to guide you every step of the way. Explore the world with ease and comfort—travel with us!</p>
+            <p>At Explore Tours and Travels, we make your dream journeys a reality. From seamless visa services to hassle-free air ticket booking and curated tour packages, we ensure your travel experience is stress-free and unforgettable. Whether you’re seeking adventure or relaxation, our expert team is here to guide you every step of the way. Explore the world with ease and comfort—travel with us!</p>
             <button className={style.cta}>Explore Now <FaArrowRight /></button>
           </div>
           <div className={style.counterContainer}>

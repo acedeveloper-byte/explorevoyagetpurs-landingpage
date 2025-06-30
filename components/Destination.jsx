@@ -12,7 +12,7 @@ const Destination = () => {
       <div className={styles.leftGrid}>
           <div className={styles.destinationCard}>
             <div className={styles.imageContainer}>
-              <img src="./home.jpg" alt="home" className={styles.image} />
+              <img src="./burj.jpg" alt="burj image" className={styles.image} />
               <div className={styles.overlay} />
               <div className={styles.textWrapper}>
                 {/* <span className={styles.badge}>Dubai</span> */}
@@ -25,7 +25,7 @@ const Destination = () => {
           </div>
           <div className={styles.destinationCard}>
             <div className={styles.imageContainer}>
-              <img src="./home.jpg" alt="home" className={styles.image} />
+              <img src="./bali island.jpg" alt="bali image" className={styles.image} />
               <div className={styles.overlay} />
               <div className={styles.textWrapper}>
                 {/* <span className={styles.badge}>Dubai</span> */}
@@ -38,7 +38,7 @@ const Destination = () => {
           </div>
           <div className={styles.destinationCard}>
             <div className={styles.imageContainer}>
-              <img src="./home.jpg" alt="home" className={styles.image} />
+              <img src="./island.jpg" alt="island image" className={styles.image} />
               <div className={styles.overlay} />
               <div className={styles.textWrapper}>
                 {/* <span className={styles.badge}>Dubai</span> */}
@@ -51,7 +51,7 @@ const Destination = () => {
           </div>
           <div className={styles.destinationCard}>
             <div className={styles.imageContainer}>
-              <img src="./home.jpg" alt="home" className={styles.image} />
+              <img src="./singapore.jpg" alt="singapore image" className={styles.image} />
               <div className={styles.overlay} />
               <div className={styles.textWrapper}>
                 {/* <span className={styles.badge}>Dubai</span> */}
@@ -66,7 +66,7 @@ const Destination = () => {
 
       <div className={styles.promoContainer}>
         <div className={styles.promoCard}>
-          <img src="./home.jpg" alt="Promo" className={styles.image} />
+          <img src="./jeju.jpg" alt="jeju image" className={styles.image} />
           <div className={styles.overlayLight} />
           <div className={styles.promoContent}>
             <p className={styles.promoTitle}>Jeju Island</p>
