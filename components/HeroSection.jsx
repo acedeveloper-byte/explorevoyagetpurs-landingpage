@@ -8,15 +8,14 @@ const Hero = () => {
       <div className={style.left}>
         <span className={style.capsule}>#1 The Best Travel Agency</span>
         <p className={style.head}>
-          Unlock the Wonders of the{" "}
+          Discover the{" "}
           <strong>
-            <i>World</i>
+            <i>World's</i>
           </strong>{" "}
-          With Explore Tours And Travels
+          Treasures with Our Curated Explore Voyage Packages
         </p>
         <p className={style.subpara}>
-          Welcome to Explore Tours And Travels, a premier tour and travel agency
-          committed to transforming your travel dreams into reality.
+          Welcome to Explore Voyage Packages – a premier tour and travel agency dedicated to turning your travel aspirations into unforgettable realities.
         </p>
         <button className={style.cta}>
           Explore Now <FaArrowRight />

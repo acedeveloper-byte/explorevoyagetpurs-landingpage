@@ -55,7 +55,7 @@ const Testimonials = () => {
             <div className={style.card}>
               <div className={style.top}>
                 <div className={style.image}>
-                  <img src="./home.jpg" alt="customer" />
+                  <img src="./portrait1.jpg" alt="customer" />
                 </div>
                 <div className={style.name}>
                   <h4>Mortimer Cobbett</h4>
@@ -71,10 +71,7 @@ const Testimonials = () => {
               </div>
               <p className={style.comment}>
                 <RiDoubleQuotesL />
-                Our honeymoon trip to Bali was beyond perfect! Everything from
-                the beachfront villa to the candlelight dinner was arranged
-                flawlessly. We didn’t have to worry about a thing, just enjoyed
-                every moment together
+                Our honeymoon trip to Bali was nothing short of perfection, as everything, right from the beach villa to the candlelit dinner, was extremely well organized. We had no concerns whatsoever, and we cherished each and every moment we spent together.
                 <RiDoubleQuotesR />
               </p>
             </div>
@@ -83,7 +80,7 @@ const Testimonials = () => {
             <div className={style.card}>
               <div className={style.top}>
                 <div className={style.image}>
-                  <img src="./home.jpg" alt="customer" />
+                  <img src="./person3.png" alt="traveler" />
                 </div>
                 <div className={style.name}>
                   <h4>Sienna Montgomery</h4>
@@ -99,10 +96,7 @@ const Testimonials = () => {
               </div>
               <p className={style.comment}>
                 <RiDoubleQuotesL />
-                This was the perfect vacation for our family! The itinerary was
-                balanced with fun activities for the kids and relaxation for us.
-                The hotel choices were fantastic, with amenities to keep
-                everyone happy!
+                This was the ideal holiday for our family! The holiday was well spaced out with some fun activities to do with the children and relaxation for us. The hotels were excellent with amenities to suit the needs of all!
                 <RiDoubleQuotesR />
               </p>
             </div>
@@ -111,7 +105,7 @@ const Testimonials = () => {
             <div className={style.card}>
               <div className={style.top}>
                 <div className={style.image}>
-                  <img src="./home.jpg" alt="customer" />
+                  <img src="./man.jpg" alt="traveler" />
                 </div>
                 <div className={style.name}>
                   <h4>Lesley Schwartz</h4>
@@ -127,10 +121,7 @@ const Testimonials = () => {
               </div>
               <p className={style.comment}>
                 <RiDoubleQuotesL />
-                Planning corporate travel is usually a hassle, but this time it
-                was seamless. The team organized everything from flights to
-                meeting rooms, leaving me free to focus on my work. Exceptional
-                service!
+                Organizing corporate travel is typically a hassle, but today it was perfect. The employees coordinated everything from flights to meeting rooms, and I could concentrate on my job. Great service!
                 <RiDoubleQuotesR />
               </p>
             </div>
@@ -139,7 +130,7 @@ const Testimonials = () => {
             <div className={style.card}>
               <div className={style.top}>
                 <div className={style.image}>
-                  <img src="./home.jpg" alt="customer" />
+                  <img src="./person4.png" alt="traveler" />
                 </div>
                 <div className={style.name}>
                   <h4>Lucy Anderson</h4>
@@ -155,36 +146,12 @@ const Testimonials = () => {
               </div>
               <p className={style.comment}>
                 <RiDoubleQuotesL />
-                "What an adrenaline rush! From zip-lining through the rainforest
-                to white-water rafting, this adventure package was amazing. The
-                guides were friendly and very knowledgeable about the local
-                wildlife!
+                What an adrenaline rush! From zip-lining across the rainforest to white-water rafting, this adventure package was amazing. The guides were so nice and very knowledgeable about the local and surrounding wildlife!
                 <RiDoubleQuotesR />
               </p>
             </div>
           </SwiperSlide>
         </Swiper>
-        {/* <div className={style.cardContainer}>
-          <div className={style.card}>
-            <div className={style.top}>
-              <div className={style.image}>
-                <img src="./home.jpg" alt="customer" />
-              </div>
-              <div className={style.name}>
-                <h4>Mortimer Cobbett</h4>
-                <p>Our traveler</p>
-                <div className={style.ratings}>
-                  <FaStar />
-                  <FaStar />
-                  <FaStar />
-                  <FaStar />
-                  <FaStar />
-                </div>
-              </div>
-            </div>
-            <p className={style.comment}><RiDoubleQuotesL />Our honeymoon trip to Bali was beyond perfect! Everything from the beachfront villa to the candlelight dinner was arranged flawlessly. We didn’t have to worry about a thing, just enjoyed every moment together<RiDoubleQuotesR /></p>
-          </div>
-        </div> */}
       </div>
     </div>
   );

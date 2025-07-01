@@ -8,11 +8,11 @@ const WhyChooseUs = () => {
   return (
     <div className={style.container}>
       <div className={style.headingArea}>
-        <h3>Why Choose <strong><i>Explore Tours And Travels?</i></strong></h3>
+        <h3>Why Choose <strong><i>Explore Voyage Packages?</i></strong></h3>
       </div>
       <div className={style.row}>
         <div className={style.left}>
-            <p>At Explore Tours and Travels, we take pride in delivering exceptional travel experiences that go far beyond mere bookings. Here’s why travelers choose us for their adventures!</p>
+            <p>At Explore Voyage Packages, we take pride in delivering exceptional travel experiences that go far beyond imagination. Here’s why travelers choose us for their adventures!</p>
             <div className={style.staggerCards}>
               <div className={style.card}>
                 <p className={style.icon}><FaUser size={20} /></p>

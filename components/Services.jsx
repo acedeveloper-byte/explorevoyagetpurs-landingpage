@@ -16,7 +16,7 @@ const Services = () => {
             <img src="./cruise.jpg" alt="cruise booking services" />
           </div>
           <div className={style.serviceContent}>
-            <h4>Cruise Booking</h4>
+            <h4>Sail In Sea</h4>
             <p>Set sail with ease through our seamless cruise booking service, designed to match your travel preferences and deliver unforgettable ocean adventures.</p>
             <button className={style.cta}>Explore Now <FaArrowRight /></button>
           </div>
@@ -26,8 +26,8 @@ const Services = () => {
             <img src="./plane-landing.jpg" alt="flight booking service" />
           </div>
           <div className={style.serviceContent}>
-            <h4>Air Ticket Booking</h4>
-            <p>Enjoy convenient and cost-effective flight arrangements to your chosen destinations worldwide.</p>
+            <h4>Fly In Air</h4>
+            <p>Access reliable and affordable flight solutions tailored to your travel needs worldwide.</p>
             <button className={style.cta}>Explore Now <FaArrowRight /></button>
           </div>
         </div>
@@ -37,7 +37,7 @@ const Services = () => {
           </div>
           <div className={style.serviceContent}>
             <h4>Tour Packages</h4>
-            <p>Explore our expertly curated tour packages designed to suit your preferences, from relaxing getaways to thrilling adventures.</p>
+            <p>Discover our expertly curated tour packages, thoughtfully designed to match your unique preferences from tranquil escapes to exhilarating adventures..</p>
             <button className={style.cta}>Explore Now <FaArrowRight /></button>
           </div>
         </div>

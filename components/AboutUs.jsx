@@ -9,7 +9,7 @@ const AboutUs = () => {
   return (
     <div className={style.container}>
       <div className={style.headingArea}>
-        <h3>Explore Tours And Travels, <br /> World's Best Travel Agency <strong><i>Since 2020.</i></strong></h3>
+        <h3>Explore Voyage Packages, <br /> World's Best Travel Agency <strong><i>Since 2020.</i></strong></h3>
       </div>
       <div className={style.row}>
         <div className={style.leftCard}>
@@ -27,7 +27,7 @@ const AboutUs = () => {
             </div>
           </div>
           <div className={style.para}>
-            <p>At Explore Tours and Travels, we make your dream journeys a reality. From seamless visa services to hassle-free air ticket booking and curated tour packages, we ensure your travel experience is stress-free and unforgettable. Whether you’re seeking adventure or relaxation, our expert team is here to guide you every step of the way. Explore the world with ease and comfort—travel with us!</p>
+            <p>At Explore Voyage Packages, we make your dream vacations come alive. With our full visa services, hassle-free air ticket, and carefully crafted tour packages, we make your journey convenient and memorable. Whether you seek adventure or peace of mind, our expert team is here to guide you every step of the way. Travel the world in comfort and convenience—come, join us!</p>
             <button className={style.cta}>Explore Now <FaArrowRight /></button>
           </div>
           <div className={style.counterContainer}>

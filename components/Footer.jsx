@@ -10,18 +10,16 @@ const Footer = () => {
       <div className={styles.topSection}>
         <div className={styles.logoAndDesc}>
             <h2 className={styles.logo}>
-                <span className={styles.logoMain}>Explore</span>
-                <span className={styles.logoSub}>TOURS & TRAVELS</span>
+                <span className={styles.logoMain}>EXPLORE VOYAGE</span>
+                <span className={styles.logoSub}>PACKAGES</span>
             </h2>
           <p>
-            Your perfect escape begins with us! We offer tailored travel
-            services, ensuring every detail of your dream vacation is
-            flawlessly planned.
+            Book with Explore Voyage Packages, and save a great amount on your cruise booking. Get exclusive deals and explore the seas at low prices.
           </p>
         </div>
 
         <div className={styles.grid}>
-          <div>
+          {/* <div>
             <h3>Working Hours :</h3>
             <ul>
               <li className={styles.border}>Monday – Tuesday: 08.00 AM–09.00 PM</li>
@@ -29,7 +27,7 @@ const Footer = () => {
               <li className={styles.border}>Friday – Saturday: 08.00 AM–09.00 PM</li>
               <li className={styles.border}>Sunday: Closed</li>
             </ul>
-          </div>
+          </div> */}
 
           <div>
             <h3>Quick Links</h3>
@@ -56,27 +54,29 @@ const Footer = () => {
           <div>
             <h3>Contact Info</h3>
             <div className={styles.contactInfo}>
-                <p><strong>Phone:</strong> +91 8951070719</p>
+                <p><strong>Phone number:</strong>+1 000000000</p>
+                {/* <p>USA: +1(844) 762-1214</p>
+                <p>Chile: +56 800231058</p>
+                <p>Mexico: +52 8007334112</p> */}
                 <p>
                 <strong>Address:</strong><br />
-                1st Floor, Building No./Flat No.: 356,<br />
-                HMT Main Road, Mathikere,<br />
-                Bengaluru, Karnataka, PIN Code: 560054
+                  3612 Windshire Dr Springfield,<br />
+                  IL 62704, USA<br />
                 </p>
-                <p><strong>Email:</strong><br />exploretoursandtravels123@gmail.com</p>
+                <p><strong>Email:</strong><br />info@explorevoyagepackages.com</p>
             </div>
           </div>
         </div>
       </div>
 
-      <div className={styles.bottomBar}>
+      {/* <div className={styles.bottomBar}>
         <p>© Tour & Travel by Algobiz Innovations LLP. All Right Reserved 2024.</p>
         <div className={styles.socialIcons}>
           <span><FaFacebookF /></span>
           <span><FaInstagram /></span>
           <span><FaTwitter /></span>
         </div>
-      </div>
+      </div> */}
     </footer>
   );
 };

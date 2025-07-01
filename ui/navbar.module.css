@@ -82,3 +82,16 @@
     padding: 1rem 0;
   }
 }
+@media screen and (max-width: 425px) {
+      .logo {
+      font-size: 0.8rem;
+      font-weight: bold;
+      text-align: center;
+      color: orangered;
+      cursor: pointer;
+    }
+    .logo span{
+      font-size: 1.1rem;
+    }
+
+}

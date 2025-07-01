@@ -12,7 +12,7 @@ const Navbar = () => {
 
   return (
     <nav className={styles.navbar}>
-      <h2 className={styles.logo}><span>EXPLORE</span> <br /> TOURS & TRAVELS</h2>
+      <h2 className={styles.logo}><span>EXPLORE VOYAGE</span> <br /> PACKAGES</h2>
 
       <div className={styles.menuIcon} onClick={toggleMenu}>
         {menuOpen ? <FaTimes /> : <FaBars />}
@@ -29,3 +29,5 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
+// Pixor@121
