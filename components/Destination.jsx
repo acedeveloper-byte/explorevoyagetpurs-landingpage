@@ -12,7 +12,7 @@ const Destination = () => {
       <div className={styles.leftGrid}>
           <div className={styles.destinationCard}>
             <div className={styles.imageContainer}>
-              <img src="./burj.jpg" alt="burj image" className={styles.image} />
+              <img src="./burj.webp" alt="burj image" className={styles.image} />
               <div className={styles.overlay} />
               <div className={styles.textWrapper}>
                 {/* <span className={styles.badge}>Dubai</span> */}
@@ -25,7 +25,7 @@ const Destination = () => {
           </div>
           <div className={styles.destinationCard}>
             <div className={styles.imageContainer}>
-              <img src="./bali island.jpg" alt="bali image" className={styles.image} />
+              <img src="./bali island.webp" alt="bali image" className={styles.image} />
               <div className={styles.overlay} />
               <div className={styles.textWrapper}>
                 {/* <span className={styles.badge}>Dubai</span> */}
@@ -38,7 +38,7 @@ const Destination = () => {
           </div>
           <div className={styles.destinationCard}>
             <div className={styles.imageContainer}>
-              <img src="./island.jpg" alt="island image" className={styles.image} />
+              <img src="./island.webp" alt="island image" className={styles.image} />
               <div className={styles.overlay} />
               <div className={styles.textWrapper}>
                 {/* <span className={styles.badge}>Dubai</span> */}
@@ -51,7 +51,7 @@ const Destination = () => {
           </div>
           <div className={styles.destinationCard}>
             <div className={styles.imageContainer}>
-              <img src="./singapore.jpg" alt="singapore image" className={styles.image} />
+              <img src="./singapore.webp" alt="singapore image" className={styles.image} />
               <div className={styles.overlay} />
               <div className={styles.textWrapper}>
                 {/* <span className={styles.badge}>Dubai</span> */}
@@ -66,7 +66,7 @@ const Destination = () => {
 
       <div className={styles.promoContainer}>
         <div className={styles.promoCard}>
-          <img src="./jeju.jpg" alt="jeju image" className={styles.image} />
+          <img src="./jeju.webp" alt="jeju image" className={styles.image} />
           <div className={styles.overlayLight} />
           <div className={styles.promoContent}>
             <p className={styles.promoTitle}>Jeju Island</p>

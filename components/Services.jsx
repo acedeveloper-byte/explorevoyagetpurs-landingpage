@@ -13,7 +13,7 @@ const Services = () => {
       <div className={style.row}>
         <div className={style.serviceCard}>
           <div className={style.serviceImage}>
-            <img src="./cruise.jpg" alt="cruise booking services" />
+            <img src="./cruise.webp" alt="cruise booking services" />
           </div>
           <div className={style.serviceContent}>
             <h4>Sail In Sea</h4>
@@ -23,7 +23,7 @@ const Services = () => {
         </div>
         <div className={style.serviceCard}>
           <div className={style.serviceImage}>
-            <img src="./plane-landing.jpg" alt="flight booking service" />
+            <img src="./plane-landing.webp" alt="flight booking service" />
           </div>
           <div className={style.serviceContent}>
             <h4>Fly In Air</h4>
@@ -33,7 +33,7 @@ const Services = () => {
         </div>
         <div className={style.serviceCard}>
           <div className={style.serviceImage}>
-            <img src="./statue-of-liberty.jpg" alt="statue of liberty image" />
+            <img src="./statue-of-liberty.webp" alt="statue of liberty image" />
           </div>
           <div className={style.serviceContent}>
             <h4>Tour Packages</h4>

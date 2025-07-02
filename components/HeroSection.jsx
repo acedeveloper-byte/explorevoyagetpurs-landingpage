@@ -23,7 +23,7 @@ const Hero = () => {
       </div>
       <div className={style.right}>
         <div className={style.image}>
-          <img src="./statue.jpg" alt="statue of liberty" className={style.image} />
+          <img src="./statue.webp" alt="statue of liberty" className={style.image} />
         </div>
       </div>
     </section>

@@ -14,16 +14,16 @@ const AboutUs = () => {
       <div className={style.row}>
         <div className={style.leftCard}>
             <div className={style.leftImage}>
-                <img src="./nyc.jpg" alt="new york image" />
+                <img src="./nyc.webp" alt="new york image" />
             </div>
         </div>
         <div className={style.rightCard}>
           <div className={style.imageContainer}>
             <div>
-                <img src="./california.jpg" alt="california image" />
+                <img src="./california.webp" alt="california image" />
             </div>
             <div>
-                <img src="./mountain-sculpture.jpg" alt="sculpture image" />
+                <img src="./mountain-sculpture.webp" alt="sculpture image" />
             </div>
           </div>
           <div className={style.para}>

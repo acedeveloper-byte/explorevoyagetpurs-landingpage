@@ -55,7 +55,7 @@ const Testimonials = () => {
             <div className={style.card}>
               <div className={style.top}>
                 <div className={style.image}>
-                  <img src="./portrait1.jpg" alt="customer" />
+                  <img src="./portrait1.webp" alt="traveler" />
                 </div>
                 <div className={style.name}>
                   <h4>Mortimer Cobbett</h4>
@@ -105,7 +105,7 @@ const Testimonials = () => {
             <div className={style.card}>
               <div className={style.top}>
                 <div className={style.image}>
-                  <img src="./man.jpg" alt="traveler" />
+                  <img src="./man.webp" alt="traveler" />
                 </div>
                 <div className={style.name}>
                   <h4>Lesley Schwartz</h4>

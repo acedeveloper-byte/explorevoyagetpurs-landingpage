@@ -39,13 +39,13 @@ const WhyChooseUs = () => {
         </div>
         <div className={style.right}>
           <div className={style.image}>
-            <img src="./yosemite.jpg" alt="yosemite forest image" />
+            <img src="./yosemite.webp" alt="yosemite forest image" />
           </div>
           <div className={style.image}>
-            <img src="./colorado.jpg" alt="colorado mountain image" />
+            <img src="./colorado.webp" alt="colorado mountain image" />
           </div>
           <div className={style.image}>
-            <img src="./waterfalls.jpg" alt="why us image" />
+            <img src="./waterfalls.webp" alt="why us image" />
           </div>
         </div>
       </div>
