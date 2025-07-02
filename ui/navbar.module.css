@@ -15,15 +15,19 @@
 }
 
 .logo {
-  font-size: 0.8rem;
+  width: 170px;
+  cursor: pointer; 
+  /* font-size: 0.8rem;
   font-weight: bold;
   text-align: center;
-  color: orangered;
-  cursor: pointer;
+  color: orangered; */
 }
-.logo span{
+.logo img{
+  width: 100%;
+}
+/* .logo span{
   font-size: 1.7rem;
-}
+} */
 
 .navLinks {
   list-style: none;
@@ -57,6 +61,9 @@
     display: block;
     color: orangered;
   }
+  .logo{
+    width: 140px;
+  }
 
   .navLinks {
     flex-direction: column;
@@ -84,11 +91,12 @@
 }
 @media screen and (max-width: 425px) {
       .logo {
-      font-size: 0.8rem;
+        width: 120px;
+      /* font-size: 0.8rem;
       font-weight: bold;
       text-align: center;
       color: orangered;
-      cursor: pointer;
+      cursor: pointer; */
     }
     .logo span{
       font-size: 1.1rem;

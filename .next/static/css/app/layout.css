@@ -18,15 +18,19 @@
 }
 
 .navbar_logo__btObb {
-  font-size: 0.8rem;
+  width: 170px;
+  cursor: pointer; 
+  /* font-size: 0.8rem;
   font-weight: bold;
   text-align: center;
-  color: orangered;
-  cursor: pointer;
+  color: orangered; */
 }
-.navbar_logo__btObb span{
+.navbar_logo__btObb img{
+  width: 100%;
+}
+/* .logo span{
   font-size: 1.7rem;
-}
+} */
 
 .navbar_navLinks__Oz6gY {
   list-style: none;
@@ -60,6 +64,9 @@
     display: block;
     color: orangered;
   }
+  .navbar_logo__btObb{
+    width: 140px;
+  }
 
   .navbar_navLinks__Oz6gY {
     flex-direction: column;
@@ -88,11 +95,12 @@
 }
 @media screen and (max-width: 425px) {
       .navbar_logo__btObb {
-      font-size: 0.8rem;
+        width: 120px;
+      /* font-size: 0.8rem;
       font-weight: bold;
       text-align: center;
       color: orangered;
-      cursor: pointer;
+      cursor: pointer; */
     }
     .navbar_logo__btObb span{
       font-size: 1.1rem;
@@ -263,14 +271,21 @@ a {
 }
 
 .footer_logoAndDesc__cRkgP {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* text-align: center; */
 }
 
 .footer_logo__JWMMS {
-    width: 340px;
-    line-height: 1.2;
+    width: 240px;
     margin-bottom: 1rem;
+    cursor: pointer;
+    /* line-height: 1.2; */
     /* border: 1px solid white; */
+}
+.footer_logo__JWMMS img{
+  width: 100%;
 }
 
 .footer_logoMain__NCLsy {
@@ -395,11 +410,13 @@ a {
   padding: 2rem 3rem;
   font-family: sans-serif;
 }
-  .footer_logo__JWMMS {
+  /* .logo {
     width: 250px;
     line-height: 1.2;
     margin-bottom: 1rem;
-    /* border: 1px solid white; */
+  } */
+   .footer_logo__JWMMS {
+    width: 140px;
   }
   .footer_logoMain__NCLsy{
     font-size: 1.7rem;

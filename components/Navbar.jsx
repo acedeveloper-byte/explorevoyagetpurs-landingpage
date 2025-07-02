@@ -12,7 +12,10 @@ const Navbar = () => {
 
   return (
     <nav className={styles.navbar}>
-      <h2 className={styles.logo}><span>EXPLORE VOYAGE</span> <br /> PACKAGES</h2>
+      <div className={styles.logo}>
+        <img src="./logo.png" alt="logo" />
+      </div>
+      {/* <h2 className={styles.logo}><span>EXPLORE VOYAGE</span> <br /> PACKAGES</h2> */}
 
       <div className={styles.menuIcon} onClick={toggleMenu}>
         {menuOpen ? <FaTimes /> : <FaBars />}

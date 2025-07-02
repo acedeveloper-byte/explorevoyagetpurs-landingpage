@@ -9,10 +9,9 @@ const Footer = () => {
     <footer className={styles.footer}>
       <div className={styles.topSection}>
         <div className={styles.logoAndDesc}>
-            <h2 className={styles.logo}>
-                <span className={styles.logoMain}>EXPLORE VOYAGE</span>
-                <span className={styles.logoSub}>PACKAGES</span>
-            </h2>
+            <div className={styles.logo}>
+              <img src="./footer-logo.png" alt="logo" />
+            </div>
           <p>
             Book with Explore Voyage Packages, and save a great amount on your cruise booking. Get exclusive deals and explore the seas at low prices.
           </p>
