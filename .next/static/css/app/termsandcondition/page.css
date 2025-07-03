@@ -1,0 +1,156 @@
+/*!***************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./ui/terms.module.css ***!
+  \***************************************************************************************************************************************************************************************************************************************************************/
+.terms_container__1MlcM{
+    max-width: 90%;
+    width: 100%;
+    margin: 0 auto;
+    padding: 3rem 2rem;
+    /* border: 1px solid black;    */
+}
+.terms_row__w98TR{
+    max-width: 85%;
+    width: 100%;
+    margin: 0 auto;
+    /* margin-top: 1.8rem; */
+    /* border: 1px solid black; */
+}
+.terms_row__w98TR .terms_heading__r2Fm_{
+    width: 100%;
+    padding: 1.7rem 0;
+    text-align: center;
+    border-bottom: 1px solid rgb(211, 211, 211);
+    /* background-color: antiquewhite; */
+}
+.terms_heading__r2Fm_ .terms_title__pwdnS{
+    font-size: 3.3rem;
+    font-weight: 500;
+}
+.terms_row__w98TR .terms_content__n_XXU{
+    /* width: 100%; */
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    margin-top: 1.3rem;
+    /* border: 1px solid black; */
+}
+.terms_content__n_XXU .terms_section___HXXL h2{
+    font-size: 2.3rem;
+    font-weight: 400;
+}
+.terms_content__n_XXU .terms_section___HXXL p{
+    font-size: 1.2rem;
+    margin: 0.6rem 0;
+}
+.terms_content__n_XXU .terms_section___HXXL ul{
+    margin-left: 1.8rem;
+    margin-top: 0.8rem;
+}
+.terms_content__n_XXU .terms_section___HXXL ul li{
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+.terms_content__n_XXU .terms_section___HXXL .terms_icon__IaNtQ{
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+}
+.terms_section___HXXL .terms_icon__IaNtQ svg{
+    font-size: 30px;
+    color: orangered;
+}
+.terms_section___HXXL .terms_icon__IaNtQ span{
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+@media (max-width: 1024px) {
+     .terms_container__1MlcM{
+        padding: 1.4rem 1.3rem;
+        margin-top: 1rem;
+        /* border: 1px solid black; */
+    }
+    .terms_row__w98TR{
+        max-width: 95%;
+    }
+}
+
+@media (max-width: 768px) {
+    .terms_container__1MlcM{
+        padding: 1rem 1.1rem;
+        margin-top: 0.8rem;
+    }
+    .terms_row__w98TR{
+        max-width: 90%;
+    }
+    .terms_row__w98TR .terms_heading__r2Fm_{
+        padding: 1.2rem 0;
+    }
+    .terms_heading__r2Fm_ .terms_title__pwdnS{
+        font-size: 2.1rem;
+    }
+    .terms_row__w98TR .terms_content__n_XXU{
+        gap: 0.9rem;
+        margin-top: 1rem;
+    }
+    .terms_content__n_XXU .terms_section___HXXL h2{
+        font-size: 1.6rem;
+        font-weight: 500;
+    }
+    .terms_content__n_XXU .terms_section___HXXL p{
+        font-size: 1rem;
+        margin: 0.4rem 0;
+    }
+    .terms_content__n_XXU .terms_section___HXXL ul{
+        margin-left: 1.5rem;
+    }
+    .terms_content__n_XXU .terms_section___HXXL ul li{
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 425px) {
+    .terms_row__w98TR .terms_heading__r2Fm_{
+        padding: 0.8rem 0;
+    }
+    .terms_heading__r2Fm_ .terms_title__pwdnS{
+        font-size: 1.8rem;
+    }
+    .terms_row__w98TR .terms_content__n_XXU{
+        gap: 0.7rem;
+    }
+     .terms_content__n_XXU .terms_section___HXXL h2{
+        font-size: 1.2rem;
+    }
+    .terms_content__n_XXU .terms_section___HXXL p{
+        font-size: 0.8rem;
+        margin: 0.4rem 0;
+    }
+    .terms_content__n_XXU .terms_section___HXXL ul li{
+        font-size: 0.8rem;
+    }
+    .terms_content__n_XXU .terms_section___HXXL .terms_icon__IaNtQ{
+        gap: 0.2rem;
+    }
+    .terms_section___HXXL .terms_icon__IaNtQ svg{
+        font-size: 20px;
+        color: orangered;
+    }
+    .terms_section___HXXL .terms_icon__IaNtQ span{
+        font-size: 0.8rem;
+        cursor: pointer;
+    }
+}
+@media (max-width: 320px) {
+    .terms_content__n_XXU .terms_section___HXXL .terms_icon__IaNtQ{
+        gap: 0.2rem;
+    }
+    .terms_section___HXXL .terms_icon__IaNtQ svg{
+        font-size: 15px;
+        color: orangered;
+    }
+    .terms_section___HXXL .terms_icon__IaNtQ span{
+        font-size: 0.7rem;
+        cursor: pointer;
+    }
+}

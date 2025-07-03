@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import styles from "@/ui/navbar.module.css";
 import { FaBars, FaTimes } from 'react-icons/fa';
 import Link from 'next/link';
+import Image from 'next/image';
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -13,7 +14,8 @@ const Navbar = () => {
   return (
     <nav className={styles.navbar}>
       <div className={styles.logo}>
-        <img src="./logo.png" alt="logo" />
+        {/* <img src="./logo.png" alt="logo" /> */}
+        <Image src="/logo.png" alt="logo" width={180} height={40} style={{width: "100%", height: "auto"}} />
       </div>
       {/* <h2 className={styles.logo}><span>EXPLORE VOYAGE</span> <br /> PACKAGES</h2> */}
 
@@ -22,10 +24,11 @@ const Navbar = () => {
       </div>
 
       <ul className={`${styles.navLinks} ${menuOpen ? styles.active : ''}`}>
-        <li><Link href="#home" onClick={closeMenu}>Home</Link></li>
-        <li><Link href="#about" onClick={closeMenu}>About</Link></li>
+        <li><Link href="/" onClick={closeMenu}>Home</Link></li>
+        <li><Link href="/about" onClick={closeMenu}>About</Link></li>
         <li><Link href="#services" onClick={closeMenu}>Services</Link></li>
-        <li><Link href="#contact" onClick={closeMenu}>Contact</Link></li>
+        {/* <li><Link href="/privacyPolicy" onClick={closeMenu}>Privacy Policy</Link></li> */}
+        <li><Link href="/contact" onClick={closeMenu}>Contact</Link></li>
       </ul>
     </nav>
   );

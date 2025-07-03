@@ -1,0 +1,153 @@
+.container{
+    max-width: 90%;
+    width: 100%;
+    margin: 0 auto;
+    padding: 3rem 2rem;
+    /* border: 1px solid black;    */
+}
+.row{
+    max-width: 85%;
+    width: 100%;
+    margin: 0 auto;
+    /* margin-top: 1.8rem; */
+    /* border: 1px solid black; */
+}
+.row .heading{
+    width: 100%;
+    padding: 1.7rem 0;
+    text-align: center;
+    border-bottom: 1px solid rgb(211, 211, 211);
+    /* background-color: antiquewhite; */
+}
+.heading .title{
+    font-size: 3.3rem;
+    font-weight: 500;
+}
+.row .content{
+    /* width: 100%; */
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    margin-top: 1.3rem;
+    /* border: 1px solid black; */
+}
+.content .section h2{
+    font-size: 2.3rem;
+    font-weight: 400;
+}
+.content .section p{
+    font-size: 1.2rem;
+    margin: 0.6rem 0;
+}
+.content .section ul{
+    margin-left: 1.8rem;
+    margin-top: 0.8rem;
+}
+.content .section ul li{
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+.content .section .icon{
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+}
+.section .icon svg{
+    font-size: 30px;
+    color: orangered;
+}
+.section .icon span{
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+@media (max-width: 1024px) {
+     .container{
+        padding: 1.4rem 1.3rem;
+        margin-top: 1rem;
+        /* border: 1px solid black; */
+    }
+    .row{
+        max-width: 95%;
+    }
+}
+
+@media (max-width: 768px) {
+    .container{
+        padding: 1rem 1.1rem;
+        margin-top: 0.8rem;
+    }
+    .row{
+        max-width: 90%;
+    }
+    .row .heading{
+        padding: 1.2rem 0;
+    }
+    .heading .title{
+        font-size: 2.1rem;
+    }
+    .row .content{
+        gap: 0.9rem;
+        margin-top: 1rem;
+    }
+    .content .section h2{
+        font-size: 1.6rem;
+        font-weight: 500;
+    }
+    .content .section p{
+        font-size: 1rem;
+        margin: 0.4rem 0;
+    }
+    .content .section ul{
+        margin-left: 1.5rem;
+    }
+    .content .section ul li{
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 425px) {
+    .row .heading{
+        padding: 0.8rem 0;
+    }
+    .heading .title{
+        font-size: 1.8rem;
+    }
+    .row .content{
+        gap: 0.7rem;
+    }
+     .content .section h2{
+        font-size: 1.2rem;
+    }
+    .content .section p{
+        font-size: 0.8rem;
+        margin: 0.4rem 0;
+    }
+    .content .section ul li{
+        font-size: 0.8rem;
+    }
+    .content .section .icon{
+        gap: 0.2rem;
+    }
+    .section .icon svg{
+        font-size: 20px;
+        color: orangered;
+    }
+    .section .icon span{
+        font-size: 0.8rem;
+        cursor: pointer;
+    }
+}
+@media (max-width: 320px) {
+    .content .section .icon{
+        gap: 0.2rem;
+    }
+    .section .icon svg{
+        font-size: 15px;
+        color: orangered;
+    }
+    .section .icon span{
+        font-size: 0.7rem;
+        cursor: pointer;
+    }
+}

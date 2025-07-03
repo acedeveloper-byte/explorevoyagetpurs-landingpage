@@ -1,6 +1,8 @@
 import React from 'react';
 import styles from "@/ui/footer.module.css";
 import { FaFacebookF, FaInstagram, FaTwitter  } from "react-icons/fa";
+import Image from 'next/image';
+import Link from 'next/link';
 
 
 
@@ -10,7 +12,8 @@ const Footer = () => {
       <div className={styles.topSection}>
         <div className={styles.logoAndDesc}>
             <div className={styles.logo}>
-              <img src="./footer-logo.png" alt="logo" />
+              {/* <img src="./footer-logo.png" alt="logo" /> */}
+               <Image src="/footer-logo.png" alt="logo" width={180} height={40} style={{width: "100%", height: "auto"}} />
             </div>
           <p>
             Book with Explore Voyage Packages, and save a great amount on your cruise booking. Get exclusive deals and explore the seas at low prices.
@@ -31,22 +34,42 @@ const Footer = () => {
           <div>
             <h3>Quick Links</h3>
             <ul>
-              <li className={styles.links}>Home</li>
-              <li className={styles.links}>About</li>
-              <li className={styles.links}>Packages</li>
-              <li className={styles.links}>FAQ</li>
-              <li className={styles.links}>Contact</li>
+              <li className={styles.links}>
+                <Link href="/">Home</Link>
+              </li>
+              <li className={styles.links}>
+                <Link href="/about">About</Link>
+              </li>
+              <li className={styles.links}>
+                <Link href="/">Packages</Link>
+              </li>
+              <li className={styles.links}>
+                <Link href="/">FAQ</Link>
+              </li>
+              <li className={styles.links}>
+                <Link href="/contact">Contact</Link>
+              </li>
             </ul>
           </div>
 
           <div>
             <h3>Support</h3>
             <ul>
-              <li className={styles.links}>Help Center</li>
-              <li className={styles.links}>Booking</li>
-              <li className={styles.links}>Privacy Policy</li>
-              <li className={styles.links}>Terms & Conditions</li>
-              <li className={styles.links}>Online Support</li>
+              <li className={styles.links}>
+                <Link href="/">Help Center</Link>
+              </li>
+              <li className={styles.links}>
+                <Link href="/">Booking</Link>
+              </li>
+              <li className={styles.links}>
+                <Link href="/privacyPolicy">Privacy Policy</Link>
+              </li>
+              <li className={styles.links}>
+                <Link href="/termsandcondition">Terms & Conditions</Link>
+              </li>
+              <li className={styles.links}>
+                <Link href="/">Online Support</Link>
+              </li>
             </ul>
           </div>
 
