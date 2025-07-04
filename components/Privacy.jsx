@@ -19,7 +19,7 @@ const Privacy = () => {
             <ul>
               <li>Book a tour or travel service</li>
               <li>Fill out a contact or inquiry form</li>
-              <li>Subscribe to our newsletter</li>
+              {/* <li>Subscribe to our newsletter</li> */}
               <li>Communicate with us via email, phone, or live chat</li>
             </ul>
             <p>This may include your name, email, phone number, passport details, payment information, and travel preferences.</p>
@@ -39,22 +39,22 @@ const Privacy = () => {
 
           <section className={style.section}>
             <h2>3. Sharing Your Information</h2>
-            <p>We may share your information with trusted service providers like airlines, hotels, and payment processors. We do not sell your data to third parties.</p>
+            <p>We may share your information with trusted service providers like airlines and payment processors. We do not sell your data to third parties.</p>
           </section>
 
           <section className={style.section}>
             <h2>4. Cookies and Tracking</h2>
-            <p>We use cookies to improve your browsing experience and analyze site traffic. You can manage cookie preferences in your browser settings.</p>
+            <p>Cookies are used by us to track site traffic and enhance your surfing experience. In your browser's settings, you can modify your cookie choices.</p>
           </section>
 
           <section className={style.section}>
             <h2>5. Data Security</h2>
-            <p>We implement security measures to protect your data, including encryption and access controls.</p>
+            <p>We implement access controls and encryption, among other security measures, to safeguard your data.</p>
           </section>
 
           <section className={style.section}>
             <h2>6. Your Rights</h2>
-            <p>You may request access, correction, or deletion of your personal data. To exercise your rights, contact us at: <strong>info@explorevoyagepackages.com</strong></p>
+            <p>You have the right to ask for your personal information to be accessed, corrected, or deleted. Contact us at: <strong>info@explorevoyagepackages.com</strong> to exercise your rights.</p>
           </section>
 
           <section className={style.section}>

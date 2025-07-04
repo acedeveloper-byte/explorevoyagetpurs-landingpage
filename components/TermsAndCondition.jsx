@@ -31,31 +31,31 @@ const TermsAndCondition = () => {
             </p>
             <ul>
               <li>Cancellation fees may apply depending on the timing and provider policies.</li>
-              <li>Refunds, if applicable, may take up to 30 business days to process.</li>
-              <li>Some bookings may be non-refundable.</li>
+              <li>The processing of refunds, if any, could take up to 30 business days.</li>
+              <li>Certain reservations might not be refundable.</li>
             </ul>
           </section>
           <section className={style.section}>
             <h2>4. Travel Documents</h2>
             <ul>
-              <li>Customers are responsible for ensuring valid passports, visas, and health requirements.</li>
-              <li>We do not accept liability for denied boarding or entry due to incomplete documentation.</li>
+              <li>Customers are in charge of making sure their health requirements, passports, and visas are current.</li>
+              <li>For refused boarding or entrance because of insufficient documentation, we do not assume liability.</li>
             </ul>
           </section>
           <section className={style.section}>
             <h2>5. Changes & Modifications</h2>
             <p>
-              Explore Voyage Packages reserves the right to make changes to itineraries, accommodations, and services if necessary due to external factors.
+              Explore Voyage Packages maintains the right, in the event of unforeseen circumstances, to modify itineraries, lodgings, and services.
             </p>
             <ul>
               <li>Changes may occur due to weather, political conditions, or provider decisions.</li>
-              <li>We will notify you promptly and offer alternatives when available.</li>
+              <li>When there are alternatives, we will let you know as soon as possible.</li>
             </ul>
           </section>
           <section className={style.section}>
             <h2>6. Liability Disclaimers</h2>
             <p>
-              Explore Voyage Packages acts as an intermediary between you and service providers such as airlines, hotels, and tour companies.
+              Explore Voyage Packages acts as an intermediary between you and service providers such as airlines and tour companies.
             </p>
             <ul>
               <li>We are not liable for losses, injuries, delays, or damages caused by third parties.</li>
@@ -72,7 +72,7 @@ const TermsAndCondition = () => {
           <section className={style.section}>
             <h2>8. Intellectual Property</h2>
             <p>
-              All content on this website including logos, text, and images is protected by copyright laws.
+             This website's material, images, and logos are all protected by copyright laws.
             </p>
             <ul>
               <li>Unauthorized use or reproduction is strictly prohibited.</li>
@@ -82,7 +82,7 @@ const TermsAndCondition = () => {
           <section className={style.section}>
             <h2>9. Governing Law</h2>
             <p>
-              These Terms & Conditions shall be governed and interpreted according to the laws of United States.
+              The laws of the United States shall governed and be interpreted with respect to these terms and conditions.
             </p>
           </section>
           <section className={style.section}>

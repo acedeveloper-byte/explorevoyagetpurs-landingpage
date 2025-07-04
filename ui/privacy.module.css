@@ -50,6 +50,7 @@
 }
 .content .section ul li{
     font-size: 1.2rem;
+    margin-bottom: 0.5rem;
 }
 .content .section .icon{
     display: flex;
